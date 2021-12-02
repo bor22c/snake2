@@ -28,5 +28,10 @@ namespace snake32
             newFor.Show();
             Hide();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

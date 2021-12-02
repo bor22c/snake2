@@ -20,6 +20,7 @@ namespace snake32
         Point[] snake;
         Point apple;
         Point wall;
+        Point[] ground;
         Random r;
         int width, height;
         int len = 1;
@@ -30,7 +31,8 @@ namespace snake32
         {
                 r = new Random();
                 snake = new Point[10000];
-                InitializeComponent();
+                ground = new Point[width * height];
+            InitializeComponent();
                 pictureBox1.Image = new Bitmap(pictureBox1.Width, pictureBox1.Height);
                 width = pictureBox1.Width / 10;
                 height = pictureBox1.Height / 10;
@@ -46,12 +48,14 @@ namespace snake32
                 wall.X = r.Next(0, width - 1);
                 wall.Y = r.Next(0, height - 1);
 
+
         }
         string direction = "";
         private void timer1_Tick(object sender, EventArgs e)
         {
             Graphics g = Graphics.FromImage(pictureBox1.Image);
             g.FillRectangle(yelow_brush, 0, 0, pictureBox1.Width, pictureBox1.Height);
+            //g.DrawRectangle();
             g.FillEllipse(white_brush, snake[1].X * 10, snake[1].Y * 10, 10, 10);
 
             for (i = 0; i < len; i++)
