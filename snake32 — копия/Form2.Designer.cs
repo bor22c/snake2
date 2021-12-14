@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace snake32
 {
     partial class Form2
@@ -53,7 +55,7 @@ namespace snake32
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(242, 245);
             this.button2.TabIndex = 1;
-            this.button2.Text = "1";
+            this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -81,6 +83,11 @@ namespace snake32
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            
         }
 
         #endregion

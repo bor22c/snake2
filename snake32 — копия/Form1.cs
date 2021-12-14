@@ -24,9 +24,11 @@ namespace snake32
         int width, height;
         int len = 1;
         int i;
-        //Pen ground = new Pen(Color.Black, 3);
-        // int a1 = 0;
-        //int b1 = 0;
+        Pen ground = new Pen(Color.Black, 3);
+        int a1 = 0;
+        int b1 = 0;
+        int[] array = new int[11];
+
 
 
         public Form1()
@@ -49,7 +51,8 @@ namespace snake32
                 apple.Y = r.Next(0, height - 1);
                 wall.X = r.Next(0, width - 1);
                 wall.Y = r.Next(0, height - 1);
-
+         
+       
 
         }
         string direction = "";
@@ -57,14 +60,13 @@ namespace snake32
         {
             Graphics g = Graphics.FromImage(pictureBox1.Image);
             g.FillRectangle(yelow_brush, 0, 0, pictureBox1.Width, pictureBox1.Height);
-            /*Rectangle[] rects =
+
+            Rectangle[] rects =
             {
                  new Rectangle( a1,   b1, 10, 10),
 
-
-
              };
-            g.DrawRectangles(ground, rects);*/
+            g.DrawRectangles(ground, rects);
             g.FillEllipse(white_brush, snake[1].X * 10, snake[1].Y * 10, 10, 10);
 
             for (i = 0; i < len; i++)
@@ -88,40 +90,45 @@ namespace snake32
 
                 if (snake[i].X < 0)
                 {
+
+                    snake[i].X =0 ;
+                    direction = "";
                     Form2 newForm = new Form2();
                     newForm.Show();
                     Hide();
-                    direction = "";
-                    snake[i].X += width;
 
                 }
                 if (snake[i].X > width)
                 {
+
+                    snake[i].X = 0;
+                    direction = "";
                     Form2 newForm = new Form2();
                     newForm.Show();
                     Hide();
-                    direction = "";
-                    snake[i].X -= width;
                 }
                 if (snake[i].Y < 0)
                 {
+
+                    snake[i].Y =0;
+                    direction = "";
                     Form2 newForm = new Form2();
                     newForm.Show();
                     Hide();
-                    direction = "";
-                    snake[i].Y += height;
                 }
                 if (snake[i].Y > height)
                 {
+
+                    snake[i].Y =0;
+                    direction = "";
                     Form2 newForm = new Form2();
                     newForm.Show();
                     Hide();
-                    direction = "";
-                    snake[i].Y -= height;
                 }
 
             }
-            g.FillRectangle(gray_brush, wall.X * 10, wall.Y * 10, 10, 10);
+            
+            g.FillRectangle(gray_brush, wall.X * 10, wall.Y * 10, 20, 20);
             g.FillEllipse(green_brush, apple.X * 10, apple.Y * 10, 10, 10);
             if (direction == "up") snake[0].Y -= 1;
             if (direction == "down") snake[0].Y += 1;
@@ -161,10 +168,12 @@ namespace snake32
             if (len < 4) len++;
             pictureBox1.Invalidate();
         }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
+
 
 
 

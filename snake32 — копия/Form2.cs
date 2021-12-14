@@ -19,7 +19,7 @@ namespace snake32
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,10 +27,6 @@ namespace snake32
             Form1 newFor = new Form1();
             newFor.Show();
             Hide();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
         }
     }

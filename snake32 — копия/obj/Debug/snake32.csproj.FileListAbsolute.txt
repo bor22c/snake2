@@ -41,3 +41,14 @@ C:\Users\Борис\Desktop\project\snake2\snake32\obj\Debug\snake32.csproj.Gene
 C:\Users\Борис\Desktop\project\snake2\snake32\obj\Debug\snake32.csproj.CoreCompileInputs.cache
 C:\Users\Борис\Desktop\project\snake2\snake32\obj\Debug\snake32.exe
 C:\Users\Борис\Desktop\project\snake2\snake32\obj\Debug\snake32.pdb
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\bin\Debug\snake32.exe.config
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\bin\Debug\snake32.exe
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\bin\Debug\snake32.pdb
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.csproj.AssemblyReference.cache
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.Form1.resources
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.Form2.resources
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.Properties.Resources.resources
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.csproj.GenerateResource.cache
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.csproj.CoreCompileInputs.cache
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.exe
+C:\Users\Борис\Desktop\boris\snake2\snake32 — копия\obj\Debug\snake32.pdb
