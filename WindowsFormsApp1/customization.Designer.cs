@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Form5
+    partial class customization
     {
         /// <summary>
         /// Required designer variable.
@@ -61,6 +61,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form5";
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
 
         }

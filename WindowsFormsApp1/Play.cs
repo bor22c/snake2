@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class Play : Form
     {
         SolidBrush black_brush;
         SolidBrush white_brush;
@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
         int a1 = 0;
         int b1 = 0;
         int[] array = new int[11];
-        public Form2()
+        public Play()
         {
             InitializeComponent();
             r = new Random();
@@ -98,7 +98,7 @@ namespace WindowsFormsApp1
 
                     snake[i].X = 0;
                     direction = "";
-                    Form2 newForm = new Form2();
+                    Play newForm = new Play();
                     newForm.Show();
                     Hide();
 
@@ -108,7 +108,7 @@ namespace WindowsFormsApp1
 
                     snake[i].X = 0;
                     direction = "";
-                    Form2 newForm = new Form2();
+                    Play newForm = new Play();
                     newForm.Show();
                     Hide();
                 }
@@ -117,7 +117,7 @@ namespace WindowsFormsApp1
 
                     snake[i].Y = 0;
                     direction = "";
-                    Form2 newForm = new Form2();
+                    Play newForm = new Play();
                     newForm.Show();
                     Hide();
                 }
@@ -126,7 +126,7 @@ namespace WindowsFormsApp1
 
                     snake[i].Y = 0;
                     direction = "";
-                    Form2 newForm = new Form2();
+                    Play newForm = new Play();
                     newForm.Show();
                     Hide();
                 }
@@ -146,7 +146,7 @@ namespace WindowsFormsApp1
             }
             if (wall.X == snake[i].X && wall.Y == snake[i].Y)
             {
-                Form2 newForm = new Form2();
+                Play newForm = new Play();
                 newForm.Show();
                 direction = "Up";
                 Hide();
@@ -155,7 +155,7 @@ namespace WindowsFormsApp1
             {
                 if (len < 10)
                 {
-                    Form2 newForm = new Form2();
+                    Play newForm = new Play();
                     newForm.Show();
                     direction = "Up";
                     Hide();

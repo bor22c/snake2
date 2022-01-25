@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class menu : Form
     {
-        public Form1()
+        public menu()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 newFor = new Form2();
+            Play newFor = new Play();
             newFor.Show();
             Hide();
         }
@@ -28,9 +28,14 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form5 newFor2 = new Form5();
+            customization newFor2 = new customization();
             newFor2.Show();
             Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

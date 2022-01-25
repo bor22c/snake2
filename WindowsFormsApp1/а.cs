@@ -10,25 +10,28 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form5 : Form
+    public partial class Form3 : Form
     {
-        public Form5()
+        public Form3()
         {
             InitializeComponent();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 newFor1 = new Form4();
-            newFor1.Show();
+            menu newFor = new menu();
+            newFor.Show();
             Hide();
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
-            Form6 newFor3 = new Form6();
-            newFor3.Show();
-            Hide();
+
         }
     }
 }
