@@ -21,5 +21,12 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form6 newFor1 = new Form6();
+            newFor1.Show();
+            Hide();
+        }
     }
 }

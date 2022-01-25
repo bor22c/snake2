@@ -71,11 +71,11 @@
     <Compile Include="controlling.Designer.cs">
       <DependentUpon>controlling.cs</DependentUpon>
     </Compile>
-    <Compile Include="customization.cs">
+    <Compile Include="settings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="customization.Designer.cs">
-      <DependentUpon>customization.cs</DependentUpon>
+    <Compile Include="settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
     </Compile>
     <Compile Include="Form6.cs">
       <SubType>Form</SubType>
@@ -97,8 +97,8 @@
     <EmbeddedResource Include="controlling.resx">
       <DependentUpon>controlling.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="customization.resx">
-      <DependentUpon>customization.cs</DependentUpon>
+    <EmbeddedResource Include="settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

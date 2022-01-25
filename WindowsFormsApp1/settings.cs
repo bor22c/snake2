@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class customization : Form
+    public partial class settings : Form
     {
-        public customization()
+        public settings()
         {
             InitializeComponent();
         }
@@ -24,12 +24,7 @@ namespace WindowsFormsApp1
             Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form6 newFor3 = new Form6();
-            newFor3.Show();
-            Hide();
-        }
+   
 
         private void Form5_Load(object sender, EventArgs e)
         {

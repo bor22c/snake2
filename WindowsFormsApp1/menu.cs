@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            customization newFor2 = new customization();
+            settings newFor2 = new settings();
             newFor2.Show();
             Hide();
         }
