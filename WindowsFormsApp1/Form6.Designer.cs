@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.SuspendLayout();
             // 
             // Form6
@@ -40,6 +41,12 @@
             this.Load += new System.EventHandler(this.Form6_Load);
             this.ResumeLayout(false);
 
+=======
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form6";
+>>>>>>> 08e52d3da6894bb84c348bbddf77844c72b8fce2
         }
 
         #endregion

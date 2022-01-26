@@ -28,10 +28,13 @@ namespace WindowsFormsApp1
             newFor1.Show();
             Hide();
         }
+<<<<<<< HEAD
 
         private void controlling_Load(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 08e52d3da6894bb84c348bbddf77844c72b8fce2
     }
 }

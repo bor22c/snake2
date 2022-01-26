@@ -21,7 +21,11 @@ namespace WindowsFormsApp1
         Point[] snake;
         Point apple;
         Point wall;
+<<<<<<< HEAD
      
+=======
+        Point wall2;
+>>>>>>> 08e52d3da6894bb84c348bbddf77844c72b8fce2
         Random r;
         int width, height;
         int len = 1;
@@ -50,7 +54,12 @@ namespace WindowsFormsApp1
             apple.Y = r.Next(0, height - 1);
             wall.X = r.Next(0, width - 1);
             wall.Y = r.Next(0, height - 1);
+<<<<<<< HEAD
       
+=======
+            wall2.X = r.Next(0, width - 1);
+            wall2.Y = r.Next(0, height - 1);
+>>>>>>> 08e52d3da6894bb84c348bbddf77844c72b8fce2
 
         }
         string direction = "";
@@ -85,7 +94,16 @@ namespace WindowsFormsApp1
                     wall.Y = r.Next(0, height - 1);
 
                 }
+<<<<<<< HEAD
            
+=======
+                if (apple.X == wall2.X && apple.Y == wall2.Y)
+                {
+                    wall2.X = r.Next(0, width - 1);
+                    wall2.Y = r.Next(0, height - 1);
+
+                }
+>>>>>>> 08e52d3da6894bb84c348bbddf77844c72b8fce2
 
                 if (snake[i].X < 0)
                 {
@@ -128,7 +146,11 @@ namespace WindowsFormsApp1
             }
 
             g.FillRectangle(gray_brush, wall.X * 10, wall.Y * 10, 20, 20);
+<<<<<<< HEAD
        
+=======
+            g.FillRectangle(brown_brush, wall2.X * 10, wall.Y * 10, 20, 20);
+>>>>>>> 08e52d3da6894bb84c348bbddf77844c72b8fce2
             g.FillEllipse(green_brush, apple.X * 10, apple.Y * 10, 10, 10);
             if (direction == "up") snake[0].Y -= 1;
             if (direction == "down") snake[0].Y += 1;
@@ -138,7 +160,32 @@ namespace WindowsFormsApp1
             {
                 len = 10000 - 3;
             }
+<<<<<<< HEAD
 
+=======
+            if (wall.X == snake[i].X && wall.Y == snake[i].Y)
+            {
+                Play newForm = new Play();
+                newForm.Show();
+                direction = "Up";
+                Hide();
+            }
+            if (wall2.X == snake[i].X && wall2.Y == snake[i].Y)
+            {
+                if (len < 10)
+                {
+                    Play newForm = new Play();
+                    newForm.Show();
+                    direction = "Up";
+                    Hide();
+                }
+                if (len > 10)
+                {
+                    wall2.X = r.Next(0, width - 1);
+                    wall2.Y = r.Next(0, height - 1);
+                }
+            }
+>>>>>>> 08e52d3da6894bb84c348bbddf77844c72b8fce2
             if (len > 4)
             {
                 for (i = 1; i < len; i++)
