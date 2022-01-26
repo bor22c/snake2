@@ -1,0 +1,52 @@
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\r.a.belykh\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\b.o.mikhailov\Desktop\g\snake2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.menu.resources
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Play.resources
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\b.o.mikhailov\Desktop\Новая папка\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.menu.resources
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Play.resources
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.controlling.resources
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.settings.resources
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Борис\Desktop\project\snake2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
